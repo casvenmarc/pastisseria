@@ -48,7 +48,7 @@ export function Homeesp() {
           style={{
             marginTop: "50px",
             marginLeft: "20px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           <h2>La pasteleria:</h2>
@@ -60,7 +60,7 @@ export function Homeesp() {
             marginRight: "20px",
             textAlign: "justify",
             fontSize: "16px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           La pasteleria es un negocio familiar dirigido por Tere y Marcel. 
@@ -75,7 +75,7 @@ export function Homeesp() {
           style={{
             marginTop: "10px",
             marginLeft: "20px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           <h2>Horario:</h2>
@@ -85,7 +85,7 @@ export function Homeesp() {
             marginTop: "10px",
             marginLeft: "20px",
             fontSize: "16px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           Lunes de 07:00h a 13:30h.
@@ -109,7 +109,7 @@ export function Homeesp() {
           style={{
             marginTop: "50px",
             marginLeft: "20px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           <h2>Dónde encontrarnos:</h2>
@@ -120,7 +120,7 @@ export function Homeesp() {
             marginRight: "20px",
             textAlign: "justify",
             fontSize: "16px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           En la calle Sant Francesc, 30 de Begues. 08859. <br /> Disponemos de

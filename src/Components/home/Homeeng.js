@@ -48,7 +48,7 @@ export function Homeeng() {
           style={{
             marginTop: "50px",
             marginLeft: "20px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           <h2>The pastry shop:</h2>
