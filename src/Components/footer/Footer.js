@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Footer() {
   const classes = useStyles();
   return (
-    <div className={classes.root} style={{ zIndex: "1", width: "100%" }}>
+    <div  style={{ zIndex: "1", width: "100%" }}>
       <Grid container maxWidth className={classes.rooty}>
         <Grid item xs={12} sm={12} md={4} alignItems="center">
           <Card
