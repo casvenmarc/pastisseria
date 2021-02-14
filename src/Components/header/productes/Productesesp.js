@@ -137,11 +137,6 @@ const useStyles = makeStyles({
 export function Productesesp() {
   const classes = useStyles();
 
-  //Estados botones imagenes
-
-  const { setPaesp } = React.useContext(OpenContext);
-  const { setPastesp } = React.useContext(OpenContext);
-
   return (
     <Grid container maxWidth>
       <Grid item xs={12} sm={12} md={12} lg={4}>
