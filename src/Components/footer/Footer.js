@@ -39,7 +39,7 @@ export default function Footer() {
                 marginLeft: "20px",
                 marginRight: "20px",
                 fontSize: "20px",
-                fontFamily: "Myriad Pro",
+                fontFamily: "Nunito",
                 fontWeight: "normal",
                 color: "white",
               }}
@@ -63,7 +63,7 @@ export default function Footer() {
                 marginLeft: "20px",
                 marginRight: "20px",
                 fontSize: "20px",
-                fontFamily: "Myriad Pro",
+                fontFamily: "Nunito",
                 fontWeight: "normal",
                 color: "white",
                 cursor: 'pointer'
@@ -93,7 +93,7 @@ export default function Footer() {
                 marginLeft: "20px",
                 marginRight: "20px",
                 fontSize: "20px",
-                fontFamily: "Myriad Pro",
+                fontFamily: "Nunito",
                 fontWeight: "normal",
                 color: "white",
               }}
