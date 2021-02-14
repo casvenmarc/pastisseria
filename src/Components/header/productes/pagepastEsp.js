@@ -177,7 +177,7 @@ export function pagepastEsp() {
   const classes = estilos();
 
   return (
-    <Grid container maxWidth>
+    <Grid container style={{width: "100%" }}>
       {/* <View
         style={{
           borderBottomColor: "black",

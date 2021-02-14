@@ -177,7 +177,7 @@ export function pagepastEng() {
   const classes = estilos();
 
   return (
-    <Grid container maxWidth>      
+    <Grid container style={{width: "100%" }}>      
       <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
          <p className={classes.l1}> 
               <hr 
