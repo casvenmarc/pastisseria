@@ -61,7 +61,8 @@ export function Home() {
             marginRight: "20px",
             textAlign: "justify",
             fontSize: "16px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
+            //fontFamily: "Century Gothic",
           }}
         >
           El pastisser Marcel Casanovas va estudiar en el gremi de pastissers de

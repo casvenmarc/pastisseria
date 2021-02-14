@@ -178,13 +178,6 @@ export function pagepastCat() {
 
   return (
     <Grid container maxWidth>
-      {/* <View
-        style={{
-          borderBottomColor: "black",
-          borderBottomWidth: 0.5,
-          width: "100%",
-        }}
-      ></View> */}
       
       <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
          <p className={classes.l1}> 
@@ -200,7 +193,6 @@ export function pagepastCat() {
 
       <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
         <Card
-          //className={classes.root}
           elevation={0}
           style={{
             textAlign: "center",
