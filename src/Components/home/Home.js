@@ -49,7 +49,7 @@ export function Home() {
           style={{
             marginTop: "50px",
             marginLeft: "20px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           <h2>La pastisseria:</h2>
@@ -62,9 +62,9 @@ export function Home() {
             textAlign: "justify",
             fontSize: "16px",
             fontFamily: "Nunito",
-            //fontFamily: "Century Gothic",
           }}
         >
+          La pastisseria es tracta d'un negoci familiar dirigit per la Tere i el Marcel. 
           El pastisser Marcel Casanovas va estudiar en el gremi de pastissers de
           Terrassa i després d’haver treballat a vàries pastisseries, va decidir
           fer realitat els seus anhels, creant així la seva pròpia pastisseria,
@@ -76,7 +76,7 @@ export function Home() {
           style={{
             marginTop: "10px",
             marginLeft: "20px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           <h2>Horari:</h2>
@@ -86,7 +86,7 @@ export function Home() {
             marginTop: "10px",
             marginLeft: "20px",
             fontSize: "16px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           Dilluns de 07:00h a 13:30h.
@@ -110,7 +110,7 @@ export function Home() {
           style={{
             marginTop: "50px",
             marginLeft: "20px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           <h2>On trobar-nos:</h2>
@@ -121,11 +121,11 @@ export function Home() {
             marginRight: "20px",
             textAlign: "justify",
             fontSize: "16px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           Al carrer Sant Francesc, 30 de Begues. 08859. <br /> Disposem
-          d'aparcament gratuït exclusiu per a clients.
+          d'aparcament gratuït exclusiu per a clients.<br /> Tel.: (+34) 936391249
         </div>
         <div
           style={{

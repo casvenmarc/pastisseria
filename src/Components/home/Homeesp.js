@@ -63,6 +63,7 @@ export function Homeesp() {
             fontFamily: "Century Gothic",
           }}
         >
+          La pasteleria es un negocio familiar dirigido por Tere y Marcel. 
           El pastelero Marcel Casanovas estudió en el gremio de pasteleros de
           Tarrasa y después de haber trabajado en varias pastelerías, decidió
           hacer realidad sus anhelos, creando así su propia pastelería, que fue
@@ -123,7 +124,7 @@ export function Homeesp() {
           }}
         >
           En la calle Sant Francesc, 30 de Begues. 08859. <br /> Disponemos de
-          aparcamiento gratuito exclusivo para clientes.
+          aparcamiento gratuito exclusivo para clientes.<br />Tel.: (+34) 936391249
         </div>
         <div
           style={{

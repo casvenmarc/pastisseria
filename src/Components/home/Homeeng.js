@@ -60,9 +60,10 @@ export function Homeeng() {
             marginRight: "20px",
             textAlign: "justify",
             fontSize: "16px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
+          The pastry shop is a family business run by Tere and Marcel.
           The pastry chef Marcel Casanovas studied at Terrassa's pastry guild
           and after having worked in several pastry shops, he decided to make
           his wishes come true, thus creating his own pastry shop, which was
@@ -73,7 +74,7 @@ export function Homeeng() {
           style={{
             marginTop: "10px",
             marginLeft: "20px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           <h2>Schedule:</h2>
@@ -83,7 +84,7 @@ export function Homeeng() {
             marginTop: "10px",
             marginLeft: "20px",
             fontSize: "16px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           Monday from 07:00 a.m. to 13:30 p.m.
@@ -107,7 +108,7 @@ export function Homeeng() {
           style={{
             marginTop: "50px",
             marginLeft: "20px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           <h2>Where to find us:</h2>
@@ -118,11 +119,12 @@ export function Homeeng() {
             marginRight: "20px",
             textAlign: "justify",
             fontSize: "16px",
-            fontFamily: "Century Gothic",
+            fontFamily: "Nunito",
           }}
         >
           At Sant Francesc, 30. Begues. 08859.
           <br /> We have free parking exclusively for clients.
+          <br />Tel.: (+34) 936391249
         </div>
         <div
           style={{
