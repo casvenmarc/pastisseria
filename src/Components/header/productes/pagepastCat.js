@@ -310,7 +310,6 @@ export function pagepastCat() {
           <center>
             <img
             src={indfruitsbosc}
-            style={{ alignSelf: "center" }}
             width="340px" 
             height="240px"
             />
@@ -333,7 +332,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"0px"}}>
           <center>
             <img
             className="IND"
@@ -363,7 +362,7 @@ export function pagepastCat() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*MOUSSE FRUITS SECS*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -401,7 +400,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"2px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"2px"}}>
           <center>
             <img
             src={indcremacat}
@@ -429,7 +428,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -458,7 +457,7 @@ export function pagepastCat() {
         <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"0px"}}>
           <center>
             <img
             className="IND"
@@ -490,7 +489,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
           <center>
             <img
             src={indxoc75}
@@ -517,7 +516,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"0px"}}>
           <center>
             <img
             className="IND"
@@ -547,7 +546,7 @@ export function pagepastCat() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*MOUSSE LLIMONA*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -579,7 +578,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-15px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"-15px"}}>
           <center>
             <img
             src={indcolada}
@@ -590,7 +589,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"-80px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
               Mousse de pinya colada
@@ -606,7 +605,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px", marginTop:"-25px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-25px"}}>
           <center>
             <img
             className="IND"
@@ -636,7 +635,7 @@ export function pagepastCat() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*SARA*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -669,7 +668,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-15px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"-15px"}}>
           <center>
             <img
             src={bramininata}
@@ -696,7 +695,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             className="IND"
@@ -726,7 +725,7 @@ export function pagepastCat() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*BRAÇET TURRO*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -757,7 +756,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             className="IND"
@@ -787,7 +786,7 @@ export function pagepastCat() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*BULGARO*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -851,7 +850,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={music}
@@ -878,7 +877,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -910,7 +909,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={llimfru}
@@ -937,7 +936,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -995,7 +994,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -1026,7 +1025,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
             <img
             src={mousse_maduixa}
@@ -1082,7 +1081,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
             <img
             src={maduixa}
@@ -1138,7 +1137,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
             <img
             src={tiramisu}
@@ -1194,7 +1193,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
             <img
             src={tresxoc}
@@ -1250,7 +1249,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
             <img
             src={sant_marc}
@@ -1306,7 +1305,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-60px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-60px"}}>
           <center>
             <img
             src={massini}
@@ -1362,7 +1361,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             src={pmaduixa}
@@ -1418,7 +1417,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             src={trufaviruta}
@@ -1474,7 +1473,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             src={pnata}
@@ -1530,7 +1529,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-5px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-5px"}}>
           <center>
             <img
             src={pllimona}
@@ -1587,7 +1586,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-5px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-5px"}}>
           <center>
             <img
             src={pnatatrufa}
@@ -1676,7 +1675,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={tigreton}
@@ -1703,7 +1702,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -1735,7 +1734,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={bcremacremat}
@@ -1762,7 +1761,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -1792,7 +1791,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={bnatacremat}
@@ -1819,7 +1818,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -1849,7 +1848,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={12} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={btrufacremat}
@@ -1910,7 +1909,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={bfruita}
@@ -1937,7 +1936,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -1969,7 +1968,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={trenanatatrufa}
@@ -1997,7 +1996,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -2029,7 +2028,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={cnata}
@@ -2056,7 +2055,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
@@ -2120,7 +2119,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
           <center>
             <img
             src={gmango}
@@ -2148,7 +2147,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"0px"}}>
           <center>
             <img
             className="IND"
@@ -2178,7 +2177,7 @@ export function pagepastCat() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*G MANDARINA*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
