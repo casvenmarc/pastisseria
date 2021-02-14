@@ -1,17 +1,8 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
-import CardMedia from "@material-ui/core/Card";
 import { makeStyles } from "@material-ui/core/styles";
-import CardActions from "@material-ui/core/CardActions";
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from "@material-ui/core/CardContent";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import CardHeader from "@material-ui/core/CardHeader";
-import HoverImage from "react-hover-image";
-import { View, Dimensions } from "react";
-
 import { HashLink as Link } from 'react-router-hash-link';
 
 //INDIVIDUALS
@@ -90,8 +81,7 @@ import gmandarina from "./imgpast/gmandarina.jpg";
 
 const estilos = makeStyles({
   root: {
-    //minWidth: 400,
-    //marginTop: "20px", //20
+
     "@media (max-width:1400px)": {
       //lg
       marginTop: "10px",
@@ -104,9 +94,7 @@ const estilos = makeStyles({
       //sm
       marginTop: "40px",
     },
-    //marginLeft: "20px",
-    //marginRight: "20px",
-    //height: "50px",
+
     borderRadius: 0,
   },
   BTR:{
@@ -167,7 +155,7 @@ const estilos = makeStyles({
   },
 
   rooty: {
-   //minWidth: 420,
+
    marginLeft: "auto",
    marginRight: "auto",
    height: 450,
@@ -318,7 +306,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
           <center>
             <img
             src={indfruitsbosc}
