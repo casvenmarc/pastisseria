@@ -1122,10 +1122,10 @@ export function pagepastCat() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Mousse de pinya i coco
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
              Pa de pessic blanc. Conté gluten.
             </p>
             </center>
@@ -1150,10 +1150,10 @@ export function pagepastCat() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Mousse de tiramisú
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
             Pa de pessic de cacao i de cafè. Conté gluten.         
             </p>
             </center>
@@ -1178,10 +1178,10 @@ export function pagepastCat() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Mousse de llimona
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
             Gema, Pa de pessic de cítrics i de cacao. Conté gluten.
             </p>
             </center>
@@ -1206,10 +1206,10 @@ export function pagepastCat() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Mousse de tres xocolates
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
             Mousse de xocolata blanca i llet. Xocolata negre. Pa de pessic blanc. Conté gluten.         
             </p>
             </center>
@@ -1234,10 +1234,10 @@ export function pagepastCat() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Barra de trufa amb cruixent de xocolata
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Pa de pessic de cacao. Conté gluten.
             </p>
             </center>
@@ -1262,10 +1262,10 @@ export function pagepastCat() {
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Sant Marc
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Trufa, nata i gema cremada. Pa de pessic blanc. Conté gluten.       
             </p>
             </center>
@@ -1288,12 +1288,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"15px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Mousse de pera i canyella            
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Pa de pessic blanc. Conté gluten.
             </p>
             </center>
@@ -1316,12 +1316,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"22px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Massini
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
             Nata, trufa i gema cremada. Pa de pessic de cacao. Conté gluten.
             </p>
             </center>
@@ -1344,12 +1344,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"19px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Sacher           
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
             Trufa, melmelada de fruits vermells. Pa de pessic de cacao. Conté gluten.
             </p>
             </center>
@@ -1372,12 +1372,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"32px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Pastís de maduixa
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Nata, pa de pessic blanc. Conté gluten.
             </p>
             </center>
@@ -1400,12 +1400,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"19px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Mousse de xocolata 75%           
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Pa de pessic de cacao. Conté gluten.
             </p>
             </center>
@@ -1428,12 +1428,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"32px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Pastís de trufa viruta
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Pa de pessic de cacao. Conté gluten.
             </p>
             </center>
@@ -1456,12 +1456,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"19px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
             Mousse de iogurt grec          
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
             Pa de pessic de mora. Coulis de mora. Conté gluten.
             </p>
             </center>
@@ -1484,12 +1484,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"32px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
               Pastís de nata
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
             Nata, pa de pessic de blanc. Conté gluten.
             </p>
             </center>
@@ -1512,12 +1512,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"32px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
             Pastís de nata cremat          
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
             Nata, gema cremada, pa de pessic de blanc. Conté gluten.
             </p>
             </center>
@@ -1540,12 +1540,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"42px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
              Pastís de llimona
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
             Nata de llimona, gema cremada, pa de pessic de cítirc. Conté gluten.
             </p>
             </center>
@@ -1569,12 +1569,12 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"21px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
               Pastís de turró       
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
              Nata de turró, gema cremada, pa de pessic blanc. Conté gluten i fruits secs.
             </p>
             </center>
@@ -1597,7 +1597,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
              Pastís de nata-trufa
@@ -1626,7 +1626,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"21px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
               Sara     
@@ -1714,7 +1714,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
              Braç de turró cremat
@@ -1773,7 +1773,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Braç de crema
@@ -1948,7 +1948,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Lioneses de nata, trufa o crema
@@ -2008,7 +2008,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Rebosteria
@@ -2067,7 +2067,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Corona de crema
@@ -2130,7 +2130,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
              Gelat de mandarina
@@ -2159,7 +2159,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
              Tarrina de fruits vermells.
@@ -2190,7 +2190,7 @@ export function pagepastCat() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
              Tarrina de mango
