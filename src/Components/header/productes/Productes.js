@@ -124,7 +124,7 @@ const useStyles = makeStyles({
     marginRight: "auto",
   },
   title: {
-    fontFamily: "Century Gothic",
+    fontFamily: "Nunito",
     fontSize: "20px",
     color: "#3B0404",
     //marginLeft: "50px",
@@ -215,7 +215,7 @@ export function Productes() {
 
       <Grid item xs={12} sm={12} md={12} lg={4}>
         <Card className={classes.root3} elevation={9}>
-          <Typography className={classes.title}>
+          <Typography className={classes.title} >
             <h2>El nostre càtering...</h2>
           </Typography>
           <HoverImage

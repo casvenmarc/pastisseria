@@ -121,7 +121,7 @@ const useStyles = makeStyles({
     marginRight: "auto",
   },
   title: {
-    fontFamily: "Century Gothic",
+    fontFamily: "Nunito",
     fontSize: "20px",
     color: "#3B0404",
     //marginLeft: "50px",
