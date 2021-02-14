@@ -141,7 +141,7 @@ export function Productes() {
   const classes = useStyles();
 
   return (
-    <Grid container maxWidth>
+    <Grid container style={{width: "100%" }}>
       <Grid item xs={12} sm={12} md={12} lg={4}>
         <Card className={classes.root} elevation={9}>
           <Typography className={classes.title}>
@@ -185,7 +185,7 @@ export function Productes() {
             </div>
           </Grid>
           <Grid container>
-            <Grid item xs={12} sm={12} md={12}>
+            <Grid item xs={12} sm={12} md={12} >
               <div maxWidth>
                 <Card className={classes.c2} elevation={0}>
                   <HoverImage
