@@ -124,7 +124,6 @@ const useStyles = makeStyles({
     fontFamily: "Nunito",
     fontSize: "20px",
     color: "#3B0404",
-    //marginLeft: "50px",
     marginTop: "30px",
     textAlign: "center",
   },
