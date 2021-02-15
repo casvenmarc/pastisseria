@@ -844,7 +844,7 @@ export function pagepastCat() {
               style={{
                 color: '#3B0404',
                 backgroundColor: '#3B0404',
-                height: .1,
+                height: .5,
                 borderColor : '#3B0404'
               }}/>
          </p>
@@ -1644,8 +1644,9 @@ export function pagepastCat() {
               <hr 
               style={{
                 color: '#3B0404',
+                marginTop:"40px",
                 backgroundColor: '#3B0404',
-                height: .1,
+                height: .5,
                 borderColor : '#3B0404'
               }}/>
          </p>
@@ -1677,8 +1678,7 @@ export function pagepastCat() {
             <img
             src={tigreton}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1705,8 +1705,7 @@ export function pagepastCat() {
             className="IND"
             src={braturro}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1736,8 +1735,7 @@ export function pagepastCat() {
             <img
             src={bcremacremat}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1764,8 +1762,7 @@ export function pagepastCat() {
             className="IND"
             src={bcrema}
             style={{ alignSelf: "center" }}
-            width="320px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1793,8 +1790,7 @@ export function pagepastCat() {
             <img
             src={bnatacremat}
             style={{ alignSelf: "center" }}
-            width="370px" 
-            height="320px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1821,8 +1817,7 @@ export function pagepastCat() {
             className="IND"
             src={bnata}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1850,8 +1845,7 @@ export function pagepastCat() {
             <img
             src={btrufacremat}
             style={{ alignSelf: "center" }}
-            width="480px" 
-            height="320px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1877,9 +1871,10 @@ export function pagepastCat() {
          <p id="BTR" className={classes.l2} style={{backgroundColor: '#ffffff'}}> 
               <hr 
               style={{
+                marginTop:"40px",
                 color: '#3B0404',
                 backgroundColor: '#3B0404',
-                height: .1,
+                height: .5,
                 borderColor : '#3B0404'
               }}/>
          </p>
@@ -1911,8 +1906,7 @@ export function pagepastCat() {
             <img
             src={bfruita}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1939,8 +1933,7 @@ export function pagepastCat() {
             className="IND"
             src={lioneses}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1970,8 +1963,7 @@ export function pagepastCat() {
             <img
             src={trenanatatrufa}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1999,8 +1991,7 @@ export function pagepastCat() {
             className="IND"
             src={rebosteria}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -2030,8 +2021,7 @@ export function pagepastCat() {
             <img
             src={cnata}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -2058,8 +2048,7 @@ export function pagepastCat() {
             className="IND"
             src={ccorona}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -2085,9 +2074,10 @@ export function pagepastCat() {
          <p id="Gelats" className={classes.l2} style={{backgroundColor: '#ffffff'}}> 
               <hr 
               style={{
+                marginTop:"40px",
                 color: '#3B0404',
                 backgroundColor: '#3B0404',
-                height: .1,
+                height: .5,
                 borderColor : '#3B0404'
               }}/>
          </p>
