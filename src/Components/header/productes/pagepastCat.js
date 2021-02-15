@@ -181,6 +181,42 @@ const estilos = makeStyles({
 
     borderRadius: 0,
   },
+
+  PAST2: {
+
+    "@media (max-width:1400px)": {
+      //lg
+     width: "50px",
+     height:"390px"
+    },
+    "@media (max-width:1000px)": {
+      //md
+      width: "450px",
+      height:"365px"
+    },
+    "@media (max-width:600px)": {
+      //sm
+      width: "320px",
+      height:"265px"
+    },
+
+    borderRadius: 0,
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
 
 export function pagepastCat() {
@@ -1426,7 +1462,7 @@ export function pagepastCat() {
             <img
             src={trufaviruta}
             style={{ alignSelf: "center" }}
-            className={classes.PAST}
+            className={classes.PAST2}
             />
             </center>
         </CardContent>
@@ -1480,8 +1516,7 @@ export function pagepastCat() {
             <img
             src={pnata}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1508,8 +1543,7 @@ export function pagepastCat() {
             className="IND"
             src={pnatacremat}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1536,8 +1570,7 @@ export function pagepastCat() {
             <img
             src={pllimona}
             style={{ alignSelf: "center" }}
-            width="400px" 
-            height="290px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1565,8 +1598,7 @@ export function pagepastCat() {
             className="IND"
             src={pturro}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1593,8 +1625,7 @@ export function pagepastCat() {
             <img
             src={pnatatrufa}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1622,8 +1653,7 @@ export function pagepastCat() {
             className="IND"
             src={sara}
             style={{ alignSelf: "center" }}
-            width="420px" 
-            height="300px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
