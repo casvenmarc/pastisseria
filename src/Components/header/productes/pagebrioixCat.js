@@ -134,7 +134,7 @@ const estilos = makeStyles({
   },
 
   rooty: {
-   minWidth: 420,
+   //minWidth: 420,
    height: 450,
   },
 
