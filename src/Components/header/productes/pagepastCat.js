@@ -180,42 +180,7 @@ const estilos = makeStyles({
     },
 
     borderRadius: 0,
-  },
-
-  PAST2: {
-
-    "@media (max-width:1400px)": {
-      //lg
-     width: "50px",
-     height:"390px"
-    },
-    "@media (max-width:1000px)": {
-      //md
-      width: "450px",
-      height:"365px"
-    },
-    "@media (max-width:600px)": {
-      //sm
-      width: "320px",
-      height:"265px"
-    },
-
-    borderRadius: 0,
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 });
 
@@ -1462,7 +1427,7 @@ export function pagepastCat() {
             <img
             src={trufaviruta}
             style={{ alignSelf: "center" }}
-            className={classes.PAST2}
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -2113,7 +2078,7 @@ export function pagepastCat() {
         </Card>
         </Grid>
 
-        {/*/////////////////////////////Gelats///////////////////////////////////// */}
+{/*/////////////////////////////Gelats///////////////////////////////////// */}
 
 {/*/////////////////////////////linea////////////////////////////////////// */}
 <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
