@@ -1148,7 +1148,7 @@ export function pagepastCat() {
 
       {/*MOUSSE DE TIRAMISU*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{marginTop:"80px", backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
@@ -1174,7 +1174,7 @@ export function pagepastCat() {
         </Grid>
 {/*MOUSSE DE LLIMONA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{marginTop:"80px", backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
