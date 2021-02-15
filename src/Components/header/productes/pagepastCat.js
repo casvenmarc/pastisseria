@@ -605,7 +605,7 @@ export function pagepastCat() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"0px", marginTop:"-25px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-15px"}}>
           <center>
             <img
             className="IND"
@@ -855,8 +855,8 @@ export function pagepastCat() {
             <img
             src={music}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            width="400px" 
+            height="300px"
             />
             </center>
         </CardContent>
@@ -883,8 +883,8 @@ export function pagepastCat() {
             className="IND"
             src={cremacat}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            width="400px" 
+            height="300px"
             />
             </center>
         </CardContent>
@@ -914,8 +914,8 @@ export function pagepastCat() {
             <img
             src={llimfru}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            width="400px" 
+            height="300px"
             />
             </center>
         </CardContent>
