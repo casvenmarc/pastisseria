@@ -4,7 +4,7 @@ import Card from "@material-ui/core/Card";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import HoverImage from "react-hover-image";
-import { OpenContext } from "../hooks";
+//import { OpenContext } from "../hooks";
 
 //images:
 import Carta from "./images/carta.png";
@@ -24,7 +24,7 @@ import history from "../../../history";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 400,
+    //minWidth: 400,
     marginTop: "90px",
     marginBottom: "50px",
     marginLeft: "20px",
@@ -37,7 +37,7 @@ const useStyles = makeStyles({
   },
 
   root2: {
-    minWidth: "400px",
+    //minWidth: "400px",
     marginTop: "90px",
     "@media (max-width:1275px)": {
       //md
@@ -58,7 +58,7 @@ const useStyles = makeStyles({
   },
 
   root3: {
-    minWidth: "400px",
+    //minWidth: "400px",
     marginTop: "90px",
     "@media (max-width:1275px)": {
       //md

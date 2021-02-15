@@ -29,7 +29,7 @@ import history from "../../../history";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 400,
+    //minWidth: 400,
     marginTop: "90px",
     marginBottom: "50px",
     marginLeft: "20px",
@@ -42,7 +42,7 @@ const useStyles = makeStyles({
   },
 
   root2: {
-    minWidth: "400px",
+    //minWidth: "400px",
     marginTop: "90px",
     "@media (max-width:1275px)": {
       //md
@@ -63,7 +63,7 @@ const useStyles = makeStyles({
   },
 
   root3: {
-    minWidth: "400px",
+    //minWidth: "400px",
     marginTop: "90px",
     "@media (max-width:1275px)": {
       //md
