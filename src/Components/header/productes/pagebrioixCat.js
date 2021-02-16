@@ -143,18 +143,24 @@ const estilos = makeStyles({
     "@media (max-width:1400px)": {
       //lg
       width:"340px" ,
-      height:"280px"
+      height:"280px",
+      marginLeft: "auto",
+      marginRight: "auto"
     },
 
     "@media (max-width:1000px)": {
       //md
       width:"340px" ,
-      height:"280px"
+      height:"280px",
+      marginLeft: "auto",
+      marginRight: "auto"
     },
     "@media (max-width:600px)": {
       //sm
       width: "320px",
-      height:"265px"
+      height:"265px",
+      marginLeft: "auto",
+      marginRight: "auto"
     },
 
     borderRadius: 0,
