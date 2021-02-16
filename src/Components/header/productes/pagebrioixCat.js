@@ -138,6 +138,38 @@ const estilos = makeStyles({
    height: 450,
   },
 
+  BRIOIX: {
+
+    "@media (max-width:1400px)": {
+      //lg
+      width:"340px" ,
+      height:"280px"
+    },
+
+    "@media (max-width:1000px)": {
+      //md
+      width:"340px" ,
+      height:"280px"
+    },
+    "@media (max-width:600px)": {
+      //sm
+      width: "320px",
+      height:"265px"
+    },
+
+    borderRadius: 0,
+  }
+
+
+
+
+
+
+
+
+
+
+
 });
 
 export function pagebrioixCat() {
@@ -260,8 +292,7 @@ export function pagebrioixCat() {
             <img
             src={bretzel}
             style={{ alignSelf: "center" }}
-            width="340px" 
-            height="280px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -288,8 +319,7 @@ export function pagebrioixCat() {
             className="IND"
             src={bret_xoc_negre}
             style={{ alignSelf: "center" }}
-            width="350px" 
-            height="280px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -317,10 +347,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={bret_xoc_llet}
-            width="350px" 
-            height="280px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -355,8 +382,7 @@ export function pagebrioixCat() {
             <img
             src={bret_xoc_blanc}
             style={{ alignSelf: "center" }}
-            width="350px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -384,8 +410,7 @@ export function pagebrioixCat() {
             className="IND"
             src={croissant}
             style={{ alignSelf: "center" }}
-            width="360px" 
-            height="230px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
