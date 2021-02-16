@@ -157,7 +157,7 @@ const estilos = makeStyles({
     },
     "@media (max-width:600px)": {
       //sm
-      width: "320px",
+      width: "300px",
       height:"265px",
       marginLeft: "auto",
       marginRight: "auto"
