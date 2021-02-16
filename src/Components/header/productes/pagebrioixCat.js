@@ -158,7 +158,7 @@ const estilos = makeStyles({
     "@media (max-width:600px)": {
       //sm
       width: "300px",
-      height:"265px",
+      height:"260px",
       marginLeft: "auto",
       marginRight: "auto"
     },
@@ -443,10 +443,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={croissant_negre}
-            width="350px" 
-            height="220px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -475,8 +472,7 @@ export function pagebrioixCat() {
             <img
             src={croissant_llet}
             style={{ alignSelf: "center" }}
-            width="350px" 
-            height="200px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -503,8 +499,7 @@ export function pagebrioixCat() {
             className="IND"
             src={croissant_blanc}
             style={{ alignSelf: "center" }}
-            width="350px" 
-            height="200px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -532,10 +527,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={croissant_bikini}
-            width="350px" 
-            height="210px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -564,8 +556,7 @@ export function pagebrioixCat() {
             <img
             src={palmera}
             style={{ alignSelf: "center" }}
-            width="330px" 
-            height="250px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -592,8 +583,7 @@ export function pagebrioixCat() {
             className="IND"
             src={palmera_negre}
             style={{ alignSelf: "center" }}
-            width="330px" 
-            height="245px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -621,10 +611,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={palmera_llet}
-            width="330px" 
-            height="240px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -654,8 +641,7 @@ export function pagebrioixCat() {
             <img
             src={palmera_blanc}
             style={{ alignSelf: "center" }}
-            width="330px" 
-            height="250px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -682,8 +668,7 @@ export function pagebrioixCat() {
             className="IND"
             src={madalena}
             style={{ alignSelf: "center" }}
-            width="240px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -711,10 +696,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={m_negre}
-            width="250px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -743,8 +725,7 @@ export function pagebrioixCat() {
             className="IND"
             src={m_poma}
             style={{ alignSelf: "center" }}
-            width="250px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -772,10 +753,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={croissanet}
-            width="280px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -802,10 +780,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={crnegre}
-            width="280px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -834,8 +809,7 @@ export function pagebrioixCat() {
             className="IND"
             src={crllet}
             style={{ alignSelf: "center" }}
-            width="250px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -863,10 +837,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={crblanc}
-            width="250px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -893,10 +864,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={crint}
-            width="250px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -925,8 +893,7 @@ export function pagebrioixCat() {
             className="IND"
             src={pint}
             style={{ alignSelf: "center" }}
-            width="260px" 
-            height="210px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -954,10 +921,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={pcabell}
-            width="350px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -984,10 +948,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={tpoma}
-            width="235px" 
-            height="275px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1016,8 +977,7 @@ export function pagebrioixCat() {
             className="IND"
             src={galeta}
             style={{ alignSelf: "center" }}
-            width="295px" 
-            height="260px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1045,10 +1005,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={gnegre}
-            width="295px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
         </center>
         </CardContent>
@@ -1075,10 +1032,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={gllet}
-            width="295px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1107,8 +1061,7 @@ export function pagebrioixCat() {
             className="IND"
             src={donut}
             style={{ alignSelf: "center" }}
-            width="280px" 
-            height="280px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1136,10 +1089,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={dnegre}
-            width="280px" 
-            height="280px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
         </center>
         </CardContent>
@@ -1166,10 +1116,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={dblanc}
-            width="290px" 
-            height="280px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1198,8 +1145,7 @@ export function pagebrioixCat() {
             className="IND"
             src={xuxo}
             style={{ alignSelf: "center" }}
-            width="280px" 
-            height="165px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1227,10 +1173,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={ensaimada}
-            width="300px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
         </center>
         </CardContent>
@@ -1257,10 +1200,7 @@ export function pagebrioixCat() {
             <img
             className="IND"
             src={canya}
-            width="350px" 
-            height="260px"
-            marginLeft= "auto"
-            marginRight= "auto"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1322,8 +1262,7 @@ export function pagebrioixCat() {
             <img
             src={cibada}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1350,8 +1289,7 @@ export function pagebrioixCat() {
             className="IND"
             src={multicereals}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1381,8 +1319,7 @@ export function pagebrioixCat() {
             <img
             src={serrai}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1409,8 +1346,7 @@ export function pagebrioixCat() {
             className="IND"
             src={xia}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1439,8 +1375,7 @@ export function pagebrioixCat() {
             <img
             src={alemany}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1467,8 +1402,7 @@ export function pagebrioixCat() {
             className="IND"
             src={espelta}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1497,8 +1431,7 @@ export function pagebrioixCat() {
             <img
             src={montau}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1525,8 +1458,7 @@ export function pagebrioixCat() {
             className="IND"
             src={vidre}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="330px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
@@ -1586,8 +1518,7 @@ export function pagebrioixCat() {
             <img
             src={macarons}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="300px"
+            className={classes.BRIOIX}
             />
             </center>
         </CardContent>
