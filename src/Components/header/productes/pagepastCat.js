@@ -1728,7 +1728,7 @@ export function pagepastCat() {
 
       {/*braç crema cremat*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
@@ -1754,7 +1754,7 @@ export function pagepastCat() {
         </Grid>
 {/*Braç crema*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
@@ -1783,7 +1783,7 @@ export function pagepastCat() {
      {/*/////////////////////////////FILA 3-BRAÇOS////////////////////////////////////// */}
       {/*braç nata cremat*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
@@ -1809,7 +1809,7 @@ export function pagepastCat() {
         </Grid>
 {/*Braç nata*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
@@ -1838,7 +1838,7 @@ export function pagepastCat() {
       {/*/////////////////////////////FILA 4-BRAÇOS////////////////////////////////////// */}
       {/*braç de trufa cremat*/}
       <Grid item xs={12} sm={12} md={12} lg={12} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
@@ -1956,7 +1956,7 @@ export function pagepastCat() {
 
       {/*TRENA DE NATA TRUFA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"20px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
@@ -1983,7 +1983,7 @@ export function pagepastCat() {
         </Grid>
 {/*REBOSTERIA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"20px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
@@ -2014,7 +2014,7 @@ export function pagepastCat() {
 
       {/*CORONA DE NATA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"20px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
@@ -2040,7 +2040,7 @@ export function pagepastCat() {
         </Grid>
 {/*corona de crema*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"20px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>

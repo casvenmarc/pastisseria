@@ -1,17 +1,8 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
-import CardMedia from "@material-ui/core/Card";
 import { makeStyles } from "@material-ui/core/styles";
-import CardActions from "@material-ui/core/CardActions";
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from "@material-ui/core/CardContent";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import CardHeader from "@material-ui/core/CardHeader";
-import HoverImage from "react-hover-image";
-import { View, Dimensions } from "react";
-
 import { HashLink as Link } from 'react-router-hash-link';
 
 //INDIVIDUALS
@@ -90,8 +81,7 @@ import gmandarina from "./imgpast/gmandarina.jpg";
 
 const estilos = makeStyles({
   root: {
-    //minWidth: 400,
-    //marginTop: "20px", //20
+
     "@media (max-width:1400px)": {
       //lg
       marginTop: "10px",
@@ -104,9 +94,7 @@ const estilos = makeStyles({
       //sm
       marginTop: "40px",
     },
-    //marginLeft: "20px",
-    //marginRight: "20px",
-    //height: "50px",
+
     borderRadius: 0,
   },
   BTR:{
@@ -167,9 +155,32 @@ const estilos = makeStyles({
   },
 
   rooty: {
-   minWidth: 420,
+
+   marginLeft: "auto",
+   marginRight: "auto",
    height: 450,
   },
+
+  PAST: {
+
+    "@media (max-width:1400px)": {
+      //lg
+     width: "450px",
+     height:"365px"
+    },
+    "@media (max-width:1000px)": {
+      //md
+      width: "450px",
+      height:"365px"
+    },
+    "@media (max-width:600px)": {
+      //sm
+      width: "320px",
+      height:"265px"
+    },
+
+    borderRadius: 0,
+  }
 
 });
 
@@ -178,13 +189,6 @@ export function pagepastEsp() {
 
   return (
     <Grid container style={{width: "100%" }}>
-      {/* <View
-        style={{
-          borderBottomColor: "black",
-          borderBottomWidth: 0.5,
-          width: "100%",
-        }}
-      ></View> */}
       
       <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
          <p className={classes.l1}> 
@@ -200,7 +204,6 @@ export function pagepastEsp() {
 
       <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
         <Card
-          //className={classes.root}
           elevation={0}
           style={{
             textAlign: "center",
@@ -208,7 +211,7 @@ export function pagepastEsp() {
           }}
         >
           <p className={classes.subtitol} style={{backgroundColor: '#ffffff'}}>
-              Nuestros pasteles y productos artesanales de elaboración propia
+          Nuestros pasteles y productos artesanales de elaboración propia
           </p>
         </Card>
       </Grid>
@@ -223,7 +226,7 @@ export function pagepastEsp() {
           }}
         >
           <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
-            <Link to="pagepastEsp#Ind" style={{ textDecoration: "none" }} className={classes.a}> Individuales</Link>
+            <Link to="pagepastCat#Ind" style={{ textDecoration: "none" }} className={classes.a}> Individuales</Link>
           </p>
         </Card>
       </Grid>
@@ -238,7 +241,7 @@ export function pagepastEsp() {
           }}
         >
           <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
-          <Link to="pagepastEsp#Past" style={{ textDecoration: "none" }} className={classes.a}> Pasteles</Link>
+          <Link to="pagepastCat#Past" style={{ textDecoration: "none" }} className={classes.a}> Pasteles</Link>
 
           </p>
         </Card>
@@ -254,7 +257,7 @@ export function pagepastEsp() {
           }}
         >
           <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
-          <Link to="pagepastEsp#Bra" style={{ textDecoration: "none" }} className={classes.a}> Brazos</Link>
+          <Link to="pagepastCat#Bra" style={{ textDecoration: "none" }} className={classes.a}> Brazos</Link>
           </p>
         </Card>
       </Grid>
@@ -269,7 +272,7 @@ export function pagepastEsp() {
           }}
         >
           <p style={{ fontSize: 20,  marginTop:"-10px", display: "block"}} style={{backgroundColor: '#ffffff'}}className={classes.BTR}>
-          <Link to="pagepastEsp#BTR" style={{ textDecoration: "none" }} className={classes.a}> Bandas-Trenzas<span>-Repostería</span></Link>
+          <Link to="pagepastCat#BTR" style={{ textDecoration: "none" }} className={classes.a}> Bandas-Trenzas<span>-Repostería</span></Link>
           </p>
         </Card>
       </Grid>
@@ -284,7 +287,7 @@ export function pagepastEsp() {
           }}
         >
           <p style={{ fontSize: 20,  marginTop:"-10px" }} style={{backgroundColor: '#ffffff'}}>
-          <Link to="pagepastEsp#Gelats" style={{ textDecoration: "none" }} className={classes.a}> Helados</Link>            
+          <Link to="pagepastCat#Gelats" style={{ textDecoration: "none" }} className={classes.a}> Helados</Link>            
           </p>
         </Card>
       </Grid>
@@ -313,7 +316,7 @@ export function pagepastEsp() {
           }}
         >
           <p  className={classes.categories}  style={{backgroundColor: '#ffffff'}}>
-             Individuales
+          Individuales
           </p>
         </Card>
       </Grid>
@@ -324,24 +327,23 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"0px"}}>
           <center>
             <img
             src={indfruitsbosc}
-            style={{ alignSelf: "center" }}
             width="340px" 
             height="240px"
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"-1px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Mousse de frutos del bosque
+            Mousse de frutos del bosque
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Sin gluten. Bizcocho blanco. Interior: mermelada.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            Sin gluten. Bizcocho blanco. Interior: mermelada.
             </p>
             </center>
           </CardContent>
@@ -351,7 +353,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"0px"}}>
           <center>
             <img
             className="IND"
@@ -363,7 +365,7 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Mousse de Sacher
@@ -381,7 +383,7 @@ export function pagepastEsp() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*MOUSSE FRUITS SECS*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -394,7 +396,7 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Mousse de frutos secos
@@ -419,7 +421,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"2px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"0px"}}>
           <center>
             <img
             src={indcremacat}
@@ -430,13 +432,13 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"10px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Mousse de crema catalana
+            Mousse de crema catalana
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Sin gluten. Bizcocho blanco. Interior: Dulce de leche.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            Sin gluten. Bizcocho blanco. Interior: Dulce de leche.
             </p>
             </center>
           </CardContent>
@@ -447,7 +449,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -459,7 +461,7 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Mousse de yogur griego
@@ -476,7 +478,7 @@ export function pagepastEsp() {
         <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"0px"}}>
           <center>
             <img
             className="IND"
@@ -489,7 +491,7 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Mousse de manzana y mango
@@ -508,7 +510,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
           <center>
             <img
             src={indxoc75}
@@ -519,13 +521,13 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Mousse de choc. 75% de cacao
+            Mousse de choc. 75% de cacao
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Sin gluten. Bizcocho de cacao. Interior: Toffee.
+            Sin gluten. Bizcocho de cacao. Interior: Toffee.
             </p>
             </center>
           </CardContent>
@@ -535,7 +537,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"0px"}}>
           <center>
             <img
             className="IND"
@@ -547,7 +549,7 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Mousse de tiramisú
@@ -565,7 +567,7 @@ export function pagepastEsp() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*MOUSSE LLIMONA*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -578,7 +580,7 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"-10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Mousse de limón
@@ -597,7 +599,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-15px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"0px"}}>
           <center>
             <img
             src={indcolada}
@@ -608,13 +610,13 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"10px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Mousse de piña colada
+            Mousse de piña colada
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Sin gluten. Bizcocho blanco.
+            Sin gluten. Bizcocho blanco.
             </p>
             </center>
           </CardContent>
@@ -624,7 +626,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px", marginTop:"-25px"}}>
+        <CardContent style={{padding:"0px", marginTop:"0px"}}>
           <center>
             <img
             className="IND"
@@ -636,10 +638,10 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Pastelillo de catanias
+            Pastelillo de catanias
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
             Sin gluten. Bizcocho blanco. Contiene frutos secos. Interior: Crema de catanias.
@@ -654,7 +656,7 @@ export function pagepastEsp() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*SARA*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px",  marginTop:"20px"}} >
           <center>
             <img
             className="IND"
@@ -667,13 +669,13 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-70px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"20px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
              Sara
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten y frutos secos. Bizcocho blanco. Interior: mantequilla pastelera.
+            Contiene gluten y frutos secos. Bizcocho blanco. Interior: mantequilla pastelera.
             </p>
             </center>
           </CardContent>
@@ -687,7 +689,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-15px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"-15px"}}>
           <center>
             <img
             src={bramininata}
@@ -698,13 +700,13 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-86px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"2px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Bracito de nata quemado
+            Bracito de nata quemado
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Contiene gluten. 
+            Contiene gluten. 
             </p>
             </center>
           </CardContent>
@@ -714,7 +716,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             className="IND"
@@ -726,13 +728,13 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"8px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Bracito de trufa quemado
+            Bracito de trufa quemado
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten. 
+            Contiene gluten. 
             </p>
             </center>
           </CardContent>
@@ -744,7 +746,7 @@ export function pagepastEsp() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*BRAÇET TURRO*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -757,13 +759,13 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-70px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"15px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Bracito de turrón quemado
+            Bracito de turrón quemado
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten y frutos secos.
+            Contiene gluten y frutos secos.
             </p>
             </center>
           </CardContent>
@@ -775,7 +777,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             className="IND"
@@ -787,13 +789,14 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Tocinillo de cielo
+            Tocinillo de cielo
+
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Sin gluten. 
+            Sin gluten. 
             </p>
             </center>
           </CardContent>
@@ -805,7 +808,7 @@ export function pagepastEsp() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*BULGARO*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -818,13 +821,13 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
+          <CardContent style={{padding:"10px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
              Búlgaro
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Chocolate negro, trufa y bizcocho de cacao. Contiene gluten.
+            Chocolate negro, trufa y bizcocho de cacao. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -842,7 +845,7 @@ export function pagepastEsp() {
               style={{
                 color: '#3B0404',
                 backgroundColor: '#3B0404',
-                height: .1,
+                height: .5,
                 borderColor : '#3B0404'
               }}/>
          </p>
@@ -864,29 +867,29 @@ export function pagepastEsp() {
       </Grid>
 
      {/*/////////////////////////////FILA 1-PAST////////////////////////////////////// */}
-
+      
       {/*MUSIC*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
+      
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={music}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
               Músic
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-                Contiene gluten y frutos secos. Bizcocho blanco. Interior. Chocolate.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Contiene gluten y frutos secos. Bizcocho blanco. Interior. Chocolate.
             </p>
             </center>
           </CardContent>
@@ -896,14 +899,13 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"0px"}}>
           <center>
             <img
             className="IND"
             src={cremacat}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -913,8 +915,8 @@ export function pagepastEsp() {
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Mousse de crema catalana
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Contiene gluten y frutos secos (carquiñoli). Bizcocho blanco.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Contiene gluten y frutos secos (carquiñoli). Bizcocho blanco.
             </p>
             </center>
           </CardContent>
@@ -926,34 +928,34 @@ export function pagepastEsp() {
 
       {/*LLIMONA I FRUITS VERMELLS*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"30px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"10px" , marginTop:"10px"}}>
           <center>
             <img
             src={llimfru}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"-110px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Mousse de limón y frutos rojos
+            <p style={{marginTop: "100px", fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
+            Mousse de limón y frutos rojos
            </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Contiene gluten. Bizcocho blanco y de cacao.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Contiene gluten. Bizcocho blanco y de cacao.
             </p>
             </center>
-          </CardContent>
+        </CardContent>
+          
         </Card>
         </Grid>
 {/*POMA I MANGO*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"30px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"10px", marginTop:"10px"}}>
           <center>
@@ -961,19 +963,18 @@ export function pagepastEsp() {
             className="IND"
             src={pmango}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Mousse de manzana y mango
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Bizcocho blanco y de cacao. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Bizcocho blanco y de cacao. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -984,26 +985,25 @@ export function pagepastEsp() {
 
       {/*SELVA NEGRE*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"100px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"10px" , marginTop:"-10px"}}>
           <center>
             <img
             src={selva_negra}
             style={{ alignSelf: "center" }}
-            width="430px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+        <CardContent style={{padding:"10px" , marginTop:"-30px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-              Tarta selva negra
+            Tarta selva negra
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Nata, mermelada de frutos rojos. Bizcocho de cacao. Contiene gluten y frutos secos.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Nata, mermelada de frutos rojos. Bizcocho de cacao. Contiene gluten y frutos secos.
             </p>
             </center>
           </CardContent>
@@ -1011,26 +1011,25 @@ export function pagepastEsp() {
         </Grid>
 {/*MANDARINA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"80px",backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"10px", marginTop:"5px"}}>
           <center>
             <img
             className="IND"
             src={mandarina}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Mousse de mandarina, limón y mojito.
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
             Bizcocho de mojito y de cacao. Contiene gluten.
             </p>
             </center>
@@ -1038,30 +1037,29 @@ export function pagepastEsp() {
         </Card>
         </Grid>
 
-             {/*/////////////////////////////FILA 4-PAST////////////////////////////////////// */}
+      {/*/////////////////////////////FILA 4-PAST////////////////////////////////////// */}
 
       {/*MOUSSE DE MADUIXA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"10px", marginTop:"5px"}}>
           <center>
             <img
             src={mousse_maduixa}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"10px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Barra de fresa
+            Barra de fresa
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-             Nata de fresa. Bizcocho blanco. Contiene gluten.            
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Nata de fresa. Bizcocho blanco. Contiene gluten.            
             </p>
             </center>
           </CardContent>
@@ -1069,27 +1067,26 @@ export function pagepastEsp() {
         </Grid>
 {/*BARRA DE TURRO*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"0px", marginTop:"10px"}}>
+        <CardContent style={{padding:"10px", marginTop:"5px"}}>
           <center>
             <img
             className="IND"
             src={bturro}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-             Barra de turrón
+            Barra de turrón
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Nata de turrón. Bizcocho de cacao. Contiene gluten y frutos secos.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Nata de turrón. Bizcocho de cacao. Contiene gluten y frutos secos.
             </p>
             </center>
           </CardContent>
@@ -1098,54 +1095,52 @@ export function pagepastEsp() {
 
       {/*MOUSSE DE FRUITS VERMELLS*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{ marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"10px", marginTop:"10px"}}>
           <center>
             <img
             src={maduixa}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"5px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Mousse de frutos rojos
+            Mousse de frutos rojos
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Bizcocho blanco. Contiene gluten.          
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Bizcocho blanco. Contiene gluten.          
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
-{/*MOUSSE DE PINAY I COCO*/}
+{/*MOUSSE DE PINYA I COCO*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"0px", marginTop:"10px"}}>
+        <CardContent style={{padding:"10px", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
             src={pincoco}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="300px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"-13px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-              Mousse de piña y coco
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
+            Mousse de piña y coco
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Bizcocho blanco. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Bizcocho blanco. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1154,26 +1149,25 @@ export function pagepastEsp() {
 
       {/*MOUSSE DE TIRAMISU*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
             <img
             src={tiramisu}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="300px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Mousse de tiramisú
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-             Bizcocho de cacao y de cafè. Contiene gluten.         
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Bizcocho de cacao y de cafè. Contiene gluten.         
             </p>
             </center>
           </CardContent>
@@ -1181,7 +1175,7 @@ export function pagepastEsp() {
         </Grid>
 {/*MOUSSE DE LLIMONA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
@@ -1189,19 +1183,18 @@ export function pagepastEsp() {
             className="IND"
             src={llimona}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="300px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-              Mousse de limón
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
+            Mousse de limón
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Yema, bizcocho de cítricos y de cacao. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Yema, bizcocho de cítricos y de cacao. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1210,25 +1203,24 @@ export function pagepastEsp() {
 
       {/*MOUSSE DE 3XOC*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"90px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             src={tresxoc}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="300px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Mousse de tres chocolates
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
+            Mousse de tres chocolates
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
             Mousse de chocolate blanco y  con leche. Chocolate negro. Bizcocho blanco. Contiene gluten.         
             </p>
             </center>
@@ -1237,27 +1229,26 @@ export function pagepastEsp() {
         </Grid>
 {/*BARRA DE TRUFA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"90px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"0px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             className="IND"
             src={m_xocolata}
             style={{ alignSelf: "center" }}
-            width="520px" 
-            height="320px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-              Barra de trufa con crujiente de chocolate
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
+            Barra de trufa con crujiente de chocolate
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Bizcocho de cacao. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Bizcocho de cacao. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1266,26 +1257,25 @@ export function pagepastEsp() {
 
       {/*SANT MARC*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"100px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"0px"}}>
           <center>
             <img
             src={sant_marc}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="300px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
           <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Sant Marc
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Trufa, nata y yema quemada. Bizcocho blanco. Contiene gluten.       
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Trufa, nata y yema quemada. Bizcocho blanco. Contiene gluten.       
             </p>
             </center>
           </CardContent>
@@ -1293,27 +1283,26 @@ export function pagepastEsp() {
         </Grid>
 {/*PERA CANELA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"100px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"0px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"0px"}}>
           <center>
             <img
             className="IND"
             src={peracanela}
             style={{ alignSelf: "center" }}
-            width="400px" 
-            height="290px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"15px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-              Mousse de pera y canela            
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
+            Mousse de pera y canela            
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Bizcocho blanco. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Bizcocho blanco. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1322,54 +1311,53 @@ export function pagepastEsp() {
 
       {/*MASSINI*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"100px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-60px"}}>
+        <CardContent style={{padding:"0px", marginTop:"0px"}}>
           <center>
             <img
             src={massini}
             style={{ alignSelf: "center" }}
-            width="490px" 
-            height="370px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"22px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Massini
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Nata, trufa y yema quemada. Bizcocho de cacao. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Nata, trufa y yema quemada. Bizcocho de cacao. Contiene gluten.
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
+
       {/*SACHER*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"100px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"0px", marginTop:"10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"0px"}}>
           <center>
             <img
             className="IND"
             src={sacher}
             style={{ alignSelf: "center" }}
-            width="430px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"19px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
               Sacher           
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Trufa, mermelada de frutos rojos. Bizcocho de cacao. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Trufa, mermelada de frutos rojos. Bizcocho de cacao. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1378,34 +1366,34 @@ export function pagepastEsp() {
 
       {/*PASTÍS MADUIXA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"100px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             src={pmaduixa}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"32px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"25px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Pastel de fresa
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
+            Pastel de fresa
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Nata, Bizcocho blanco. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Nata, Bizcocho blanco. Contiene gluten.
             </p>
             </center>
           </CardContent>
         </Card>
         </Grid>
+
       {/*MOUSSE XOCOLATA 75%*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"100px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
@@ -1413,19 +1401,18 @@ export function pagepastEsp() {
             className="IND"
             src={mxoco75}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"19px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-              Mousse de chocolate 75%           
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
+            Mousse de chocolate 75%           
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Bizcocho de cacao. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Bizcocho de cacao. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1434,26 +1421,25 @@ export function pagepastEsp() {
 
       {/*TRUFA VIRUTA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             src={trufaviruta}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"32px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"20px"}}>
          <center>
-            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Pastel de trufa y virutas
+            <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"0px"}}>
+            Pastel de trufa y virutas
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-              Bizcocho de cacao. Contiene gluten.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Bizcocho de cacao. Contiene gluten.
             </p>
             </center>
           </CardContent>
@@ -1461,7 +1447,7 @@ export function pagepastEsp() {
         </Grid>
       {/*IOGURT*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px", marginTop:"10px"}}>
           <center>
@@ -1469,18 +1455,17 @@ export function pagepastEsp() {
             className="IND"
             src={iogurt}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"19px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
             Mousse de yogur griego          
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
             Bizcocho de mora. Coulis de mora. Contiene gluten.
             </p>
             </center>
@@ -1490,25 +1475,24 @@ export function pagepastEsp() {
 
       {/*PASTIS DE NATA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
             <img
             src={pnata}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"32px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"20px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-              Pastel de nata
+            Pastel de nata
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
             Nata, bizcocho blanco. Contiene gluten.
             </p>
             </center>
@@ -1517,7 +1501,7 @@ export function pagepastEsp() {
         </Grid>
       {/*PNATA CREMAT*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px", marginTop:"-10px"}}>
           <center>
@@ -1525,18 +1509,17 @@ export function pagepastEsp() {
             className="IND"
             src={pnatacremat}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"32px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
             Pastel de nata quemada          
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
             Nata, yema quemada, bizcocho blanco. Contiene gluten.
             </p>
             </center>
@@ -1546,25 +1529,24 @@ export function pagepastEsp() {
 
       {/*PASTIS LLIMONA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-5px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-5px"}}>
           <center>
             <img
             src={pllimona}
             style={{ alignSelf: "center" }}
-            width="400px" 
-            height="290px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"42px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"45px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Pastel de limón
+            Pastel de limón
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
             Nata de limón, yema quemada, bizcocho de cítircos. Contiene gluten.
             </p>
             </center>
@@ -1574,7 +1556,7 @@ export function pagepastEsp() {
 
       {/*PASTIS TURRO*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px", marginTop:"0px"}}>
           <center>
@@ -1582,19 +1564,18 @@ export function pagepastEsp() {
             className="IND"
             src={pturro}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"21px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
-              Pastel de turrón       
+            Pastel de turrón       
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-             Nata de turrón, yema quemada, bizcocho blanco. Contiene gluten y frutos secos.
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
+            Nata de turrón, yema quemada, bizcocho blanco. Contiene gluten y frutos secos.
             </p>
             </center>
           </CardContent>
@@ -1603,25 +1584,24 @@ export function pagepastEsp() {
 
       {/*PASTIS NATA TRUFA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px", marginTop:"-5px"}}>
+        <CardContent style={{padding:"0px", marginTop:"-5px"}}>
           <center>
             <img
             src={pnatatrufa}
             style={{ alignSelf: "center" }}
-            width="440px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"25px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Pastel de nata-trufa
+            Pastel de nata-trufa
             </p>
-            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
+            <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-20px"}}>
             Virutas de chocolate, bizcocho blanco. Contiene gluten.
             </p>
             </center>
@@ -1631,7 +1611,7 @@ export function pagepastEsp() {
 
       {/*SARA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
         <CardContent style={{padding:"0px", marginTop:"0px"}}>
           <center>
@@ -1639,19 +1619,18 @@ export function pagepastEsp() {
             className="IND"
             src={sara}
             style={{ alignSelf: "center" }}
-            width="420px" 
-            height="300px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"21px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)", marginTop:"5px"}}>
               Sara     
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
-               Bizcocho blanco. Interior: mantequilla pastelera. Contiene gluten y frutos secos.
+            Bizcocho blanco. Interior: mantequilla pastelera. Contiene gluten y frutos secos.
             </p>
             </center>
           </CardContent>
@@ -1666,8 +1645,9 @@ export function pagepastEsp() {
               <hr 
               style={{
                 color: '#3B0404',
+                marginTop:"40px",
                 backgroundColor: '#3B0404',
-                height: .1,
+                height: .5,
                 borderColor : '#3B0404'
               }}/>
          </p>
@@ -1694,13 +1674,12 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={tigreton}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1721,25 +1700,24 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
             src={braturro}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Brazo de turrón quemada
+            Brazo de turrón quemada
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
-             Nata de turrón, yema quemada, bizcocho blanco. Contiene gluten i frutos secos.
+            Nata de turrón, yema quemada, bizcocho blanco. Contiene gluten i frutos secos.
             </p>
             </center>
           </CardContent>
@@ -1751,15 +1729,14 @@ export function pagepastEsp() {
 
       {/*braç crema cremat*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={bcremacremat}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1778,21 +1755,20 @@ export function pagepastEsp() {
         </Grid>
 {/*Braç crema*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
             src={bcrema}
             style={{ alignSelf: "center" }}
-            width="320px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Brazo de crema
@@ -1808,15 +1784,14 @@ export function pagepastEsp() {
      {/*/////////////////////////////FILA 3-BRAÇOS////////////////////////////////////// */}
       {/*braç nata cremat*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={bnatacremat}
             style={{ alignSelf: "center" }}
-            width="370px" 
-            height="320px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1835,16 +1810,15 @@ export function pagepastEsp() {
         </Grid>
 {/*Braç nata*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
             src={bnata}
             style={{ alignSelf: "center" }}
-            width="450px" 
-            height="310px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1865,15 +1839,14 @@ export function pagepastEsp() {
       {/*/////////////////////////////FILA 4-BRAÇOS////////////////////////////////////// */}
       {/*braç de trufa cremat*/}
       <Grid item xs={12} sm={12} md={12} lg={12} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"50px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={btrufacremat}
             style={{ alignSelf: "center" }}
-            width="480px" 
-            height="320px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1899,9 +1872,10 @@ export function pagepastEsp() {
          <p id="BTR" className={classes.l2} style={{backgroundColor: '#ffffff'}}> 
               <hr 
               style={{
+                marginTop:"40px",
                 color: '#3B0404',
                 backgroundColor: '#3B0404',
-                height: .1,
+                height: .5,
                 borderColor : '#3B0404'
               }}/>
          </p>
@@ -1928,13 +1902,12 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={bfruita}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -1955,19 +1928,18 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
             src={lioneses}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Lionesas de nata, trufa o crema
@@ -1985,15 +1957,14 @@ export function pagepastEsp() {
 
       {/*TRENA DE NATA TRUFA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"20px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={trenanatatrufa}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -2013,21 +1984,20 @@ export function pagepastEsp() {
         </Grid>
 {/*REBOSTERIA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"20px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
             src={rebosteria}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Repostería
@@ -2045,15 +2015,14 @@ export function pagepastEsp() {
 
       {/*CORONA DE NATA*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"20px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10px" , marginTop:"10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"10px"}}>
           <center>
             <img
             src={cnata}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
@@ -2072,21 +2041,20 @@ export function pagepastEsp() {
         </Grid>
 {/*corona de crema*/}
       <Grid item xs={12} sm={12} md={12} lg={6} style={{backgroundColor: '#ffffff'}}>
-      <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
+      <Card className={classes.rooty} elevation={0} style={{marginTop:"20px", backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"10", marginTop:"10px"}}>
+        <CardContent style={{padding:"0", marginTop:"10px"}}>
           <center>
             <img
             className="IND"
             src={ccorona}
             style={{ alignSelf: "center" }}
-            width="470px" 
-            height="330px"
+            className={classes.PAST}
             />
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
             Corona de crema
@@ -2100,16 +2068,17 @@ export function pagepastEsp() {
         </Card>
         </Grid>
 
-        {/*/////////////////////////////Gelats///////////////////////////////////// */}
+{/*/////////////////////////////Gelats///////////////////////////////////// */}
 
 {/*/////////////////////////////linea////////////////////////////////////// */}
 <Grid item xs={12} sm={12} md={12} style={{backgroundColor: '#ffffff'}}>
          <p id="Gelats" className={classes.l2} style={{backgroundColor: '#ffffff'}}> 
               <hr 
               style={{
+                marginTop:"40px",
                 color: '#3B0404',
                 backgroundColor: '#3B0404',
-                height: .1,
+                height: .5,
                 borderColor : '#3B0404'
               }}/>
          </p>
@@ -2138,7 +2107,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px" , marginTop:"-10px"}}>
+        <CardContent style={{padding:"0px" , marginTop:"-10px"}}>
           <center>
             <img
             src={gmango}
@@ -2149,10 +2118,10 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
          <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Helado de mandarina
+            Helado de mandarina
 
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-12px"}}>
@@ -2166,7 +2135,7 @@ export function pagepastEsp() {
       <Grid item xs={12} sm={12} md={12} lg={4} style={{backgroundColor: '#ffffff'}}>
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
       
-        <CardContent style={{padding:"50px"}}>
+        <CardContent style={{padding:"0px"}}>
           <center>
             <img
             className="IND"
@@ -2178,10 +2147,10 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-80px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Tarrina de frutos rojos.
+            Tarrina de frutos rojos.
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
             Leche, agua, azúcar, fruta fresca. Sin gluten.
@@ -2196,7 +2165,7 @@ export function pagepastEsp() {
       <Card className={classes.rooty} elevation={0} style={{backgroundColor: '#ffffff'}}>
 
       {/*G MANDARINA*/}
-        <CardContent style={{padding:"50px"}} >
+        <CardContent style={{padding:"0px"}} >
           <center>
             <img
             className="IND"
@@ -2209,10 +2178,10 @@ export function pagepastEsp() {
             </center>
         </CardContent>
           
-          <CardContent style={{padding:"50px" , marginTop:"-90px"}}>
+          <CardContent style={{padding:"0px" , marginTop:"0px"}}>
             <center>
             <p style={{fontSize:"25px", fontWeight: "450", color: "rgb(59, 4, 4)",}}>
-             Tarrina de mango
+            Tarrina de mango
             </p>
             <p style={{ fontSize:"20px", color: "rgb(59, 4, 4)", marginTop:"-15px"}}>
             Leche, agua, azúcar, fruta fresca. Sin gluten.
@@ -2221,6 +2190,14 @@ export function pagepastEsp() {
           </CardContent>
         </Card>
         </Grid>
+
+
+
+   
+          
+
+
+
 
     </Grid>
 
